@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UFT-8">
+<title>Subscription-BigBossDuty</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+    <body>
+       <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/bbd.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subscription.html">subscription</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><a href="">about us</a></li>
+                    <li><a href="account.html">account</a></li>
+                </ul>
+            </nav>
+            
+            <img src="images/333.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+       
+    </div> 
+</div>
+<!--sign up page details-->
+<div class="small-container sign-up-page">
+    <table>
+        <tr>
+        <th>plan</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="sign-up-page-info">
+                    <img src="images/scribe.png">
+                    <small>price: £19.99</small>
+                    <a href="">remove</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<!---footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+<p>Available on IOS</p>
+<img src="images/Apple_Store_logo.png">
+<p>Also available on Android</p>
+<img src="images/Android-icon.png">
+            </div>
+            </div>
+        </div>
+        <hr>
+        <p>Copyright 2024</p>
+    </div>
+</div>
+<!---js for toggle menu--->
+
+<script>
+    var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+       if(menuItems.style.maxHeight == "0px")
+       {
+        menuItems.style.maxHeight = "200px";
+       } 
+       else
+       {
+        menuItems.style.maxHeight = "0px";
+       }
+    }
+</script>
+    </body>
+</html>
