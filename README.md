@@ -5,3 +5,4 @@ to have an online platform where people with the similar goals come together (op
 i use a bright blue theme to represent the earth tones to give the viewer not just an open mind but a health aura in the website.
 used microsoft pain for the logo, used AI for the review pictures
 to help with my bugs and errors i used https://jigsaw.w3.org/css-validator/
+i give credits to @greatstackdev on youtube which basically taught me coding
