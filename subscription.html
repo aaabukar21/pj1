@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UFT-8">
+<title>Subscription-BigBossDuty</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+    <body>
+       <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/bbd.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subscription.html">subscription</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><a href="">about us</a></li>
+                    <li><a href="account.html">account</a></li>
+                </ul>
+            </nav>
+            
+            <img src="images/333.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+       
+    </div> 
+</div>
+<!------subscription-------->
+<div class="small-container">
+    <h2 class="title">subscription</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="sign-up-page.html"><img src="images/sub.png"></a>
+            <h4>offering dietry progressing monthly goals thats tailored to your wellbeing. Keeps track of your calorie intake for just £9.99!!</h4>
+            <a href="sign-up-page.html"class="btn">Join Now &#8594;</a>
+        </div>
+        <div class="col-4">
+           <a href="signuppage.html" ><img src="images/scribe.png"></a>
+            <h4>addition to the basic plan, you get access to a professional consultant for best advice. Plus you get advanced planning tools for just £15.99!</h4>
+            <a href="signuppage.html"class="btn">Join Now &#8594;</a>
+        </div>
+    </div>
+</div>
+
+<!---brands--->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/insta-logo.png">
+            </div>
+            <div class="col-3">
+                <img src="images/x-logo.png">
+            </div>
+            <div class="col-3">
+                <img src="images/yt-logo.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!---footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+<p>Available on IOS</p>
+<img src="images/Apple_Store_logo.png">
+<p>Also available on Android</p>
+<img src="images/Android-icon.png">
+            </div>
+            </div>
+        </div>
+        <hr>
+        <p>Copyright 2024</p>
+    </div>
+</div>
+<!---js for toggle menu--->
+
+<script>
+    var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+       if(menuItems.style.maxHeight == "0px")
+       {
+        menuItems.style.maxHeight = "200px";
+       } 
+       else
+       {
+        menuItems.style.maxHeight = "0px";
+       }
+    }
+</script>
+    </body>
+</html>
